@@ -1,11 +1,12 @@
+<img src="preview.png" />
+
 ## Setup
 ```python
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import HTMLResponse
 from fastapi.openapi.docs import get_swagger_ui_html
 from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(docs_url=None)
-
 app.mount("/static", StaticFiles(directory='static'), name="static")
 
 @app.get("/docs", include_in_schema=False)
