@@ -10487,8 +10487,8 @@ html {
 }
 
 .swagger-ui textarea {
-  background: hsla(0, 0%, 100%, .8);
-  border: none;
+  background: #0D1117;
+  border: 1px solid #3d444d;
   border-radius: 4px;
   color: #f0f6fc;
   font-family: monospace;
