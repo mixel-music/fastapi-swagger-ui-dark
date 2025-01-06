@@ -10252,6 +10252,7 @@ html {
   cursor: pointer;
   flex: 1;
   padding: 0;
+  gap: 8px; /* test */
 }
 
 .swagger-ui .model-box-control:focus,
